@@ -92,7 +92,7 @@ export const Hero: React.FC<HeroProps> = ({ onExploreClick, onSizesClick }) => {
           <div className="lg:col-span-5 relative">
             <div className="relative mx-auto max-w-md lg:max-w-none rounded-2xl overflow-hidden border border-white/10 shadow-2xl shadow-black/80 group">
               <img
-                src="/perfume.jpg"
+                src="/md.perfume/perfume.jpg"
                 alt="M&D Perfume Showcase"
                 className="w-full h-[380px] sm:h-[440px] object-cover transition-transform duration-700 group-hover:scale-105"
                 referrerPolicy="no-referrer"
