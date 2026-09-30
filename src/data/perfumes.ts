@@ -1,0 +1,92 @@
+import { Perfume } from '../typse'
+
+export const PERFUMES_DATA: Perfume[] = [
+  {
+    id: 'creed-aventus',
+    name: 'Aventus',
+    brand: 'Creed',
+    gender: 'men',
+    category: 'fresh',
+    concentration: 'Eau de Parfum',
+    origin: 'France',
+    badge: 'شاهانە و پڕفرۆشترین',
+    rating: 4.95,
+    descriptionKu: 'ناودارترین گولاڤا نیش ل جیهانێ، بۆنەکا ب هێز و سەردەمیانە ژ ئەناناس و دارا بیرچ.',
+    topNotes: ['ئەناناس', 'سیڤەرێ بەرچێ', 'بێرگامۆت'],
+    heartNotes: ['دارا بیرچ', 'پاتشۆلی', 'یاسمین'],
+    baseNotes: ['موسک', 'دارا بەڕوو', 'عەنبەر'],
+    longevity: '١٤+ دەمژمێر',
+    sillage: 'بڵاوبوونەوەیا شاهانە',
+    image: 'https://images.unsplash.com/photo-1594035910387-fea47794261f?w=600&auto=format&fit=crop&q=80',
+    prices: { '10ml': 26000, '20ml': 48000, '30ml': 68000 }
+  },
+  {
+    id: 'baccarat-rouge-540',
+    name: 'Baccarat Rouge 540',
+    brand: 'Maison Francis Kurkdjian',
+    gender: 'unisex',
+    category: 'sweet',
+    concentration: 'Extrait de Parfum',
+    origin: 'France',
+    badge: 'سیحرا زێڕین',
+    rating: 4.98,
+    descriptionKu: 'بۆنەکا شیرین یا ئەفسانەیی ژ زەعفەران و دارێ سەرو و عەنبەرا دەریایی.',
+    topNotes: ['زەعفەرانا ئێرانی', 'یاسمین'],
+    heartNotes: ['عەنبەرێ کریستالی', 'دارا ئەمبروود'],
+    baseNotes: ['دارا سەرو', 'سەمغا داران'],
+    longevity: '١٨+ دەمژمێر',
+    sillage: 'بڵاوبوونەوەیا زێدە بەهێز',
+    image: 'https://images.unsplash.com/photo-1523293182086-7651a899d37f?w=600&auto=format&fit=crop&q=80',
+    prices: { '10ml': 29000, '20ml': 54000, '30ml': 76000 }
+  },
+  {
+    id: 'tom-ford-tobacco-vanille',
+    name: 'Tobacco Vanille',
+    brand: 'Tom Ford',
+    gender: 'unisex',
+    category: 'oriental',
+    concentration: 'Eau de Parfum',
+    origin: 'France',
+    badge: 'گەرم و کلاسیک',
+    rating: 4.9,
+    descriptionKu: 'تێکەلەکێ دەولەمەند و گەرم ژ پەڕێن توتنێ دگەل ڤانیلایا کرێمی و بەهاراتێن رۆژهەلاتی.',
+    topNotes: ['پەڕێن توتنێ', 'بەهارات'],
+    heartNotes: ['ڤانیلا', 'کاکاو', 'تۆنکا بین'],
+    baseNotes: ['مێوێن هشکبووی', 'دارێن گرانبەها'],
+    longevity: '١٦+ دەمژمێر',
+    sillage: 'بڵاوبوونەوەیا گەرم',
+    image: 'https://images.unsplash.com/photo-1547887537-6158d64c35b3?w=600&auto=format&fit=crop&q=80',
+    prices: { '10ml': 25000, '20ml': 46000, '30ml': 64000 }
+  },
+  {
+    id: 'dior-sauvage-elixir',
+    name: 'Sauvage Elixir',
+    brand: 'Christian Dior',
+    gender: 'men',
+    category: 'spicy',
+    concentration: 'Elixir Parfum',
+    origin: 'France',
+    badge: 'هێز و مانەوە',
+    rating: 4.92,
+    descriptionKu: 'ئیلیکسیرەکێ چڕ ژ قورنفل، دارچین و لاڤەندەرێ تایبەت.',
+    topNotes: ['دارچین', 'جۆزێ هیندی', 'گریپفرووت'],
+    heartNotes: ['لاڤاندەرا فرانسیسی'],
+    baseNotes: ['دارا صەندەل', 'عەنبەر', 'پاتشۆلی'],
+    longevity: '٢٠+ دەمژمێر',
+    sillage: 'بڵاوبوونەوەیا مەزن',
+    image: 'https://images.unsplash.com/photo-1588405748880-12d1d2a59f75?w=600&auto=format&fit=crop&q=80',
+    prices: { '10ml': 24000, '20ml': 44000, '30ml': 62000 }
+  }
+];
+
+export const KURDISTAN_CITIES = [
+  'دهۆک (Duhok)',
+  'هەولێر (Erbil)',
+  'سلێمانی (Sulaymaniyah)',
+  'زاخۆ (Zakho)',
+  'کەرکووک (Kirkuk)',
+  'سێمێل (Semel)',
+  'ئاکرێ (Akre)',
+  'سۆران (Soran)',
+  'بەغدا (Baghdad)'
+];
